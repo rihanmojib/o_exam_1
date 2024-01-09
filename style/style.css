@@ -1,0 +1,59 @@
+/* ==========common css============== */
+* {
+  font-family: "Poppins", sans-serif;
+  outline: none !important;
+}
+.back-color {
+  background: #b68c5a !important;
+  color: #ffffff !important;
+}
+.te-color {
+  color: #707070 !important;
+}
+/* ////=============nav part start======/////  */
+nav .nav-icon {
+  vertical-align: middle;
+}
+/* ////=============nav part end======/////  */
+/* ------------------------------------------ */
+/* ////=============banner part start======/////  */
+#banner .image {
+  margin-top: 50px;
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: #ffffff;
+}
+#banner .image h1 {
+  font-family: "EB Garamond";
+}
+#banner .image p {
+    max-width: 679px;
+}
+#banner input {
+    max-width: 500px;
+}
+/* ////=============banner part end======/////  */
+/* ------------------------------------------ */
+/* ////=============area part start======/////  */
+#area h1,h4 {
+  font-family: "EB Garamond";
+}
+#area p {
+  max-width: 724px;
+}
+#area .row p {
+  max-width: 260px;
+}
+#area .row i {
+  color: #b68c5a;
+}
+#area .row .col-lg-4 {
+  transition: 0.3s;
+}
+#area .row .col-lg-4:hover {
+  background: #E7E7E7;
+}
+/* ////=============area part end======/////  */
+/* ------------------------------------------ */
